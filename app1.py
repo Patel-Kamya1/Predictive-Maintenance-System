@@ -568,8 +568,7 @@ RUL_MODEL_PATH = f"{MODEL_DIR}/rul_model.pkl"
 
 def download_rul_model():
     os.makedirs(MODEL_DIR, exist_ok=True)
-    
-    url = "https://drive.google.com/uc?id=YOUR_FILE_ID"
+    url = "https://drive.google.com/uc?id=1gc5J7EOa-vbLivA21EC4KvTU6AED7u4f"
     gdown.download(url, RUL_MODEL_PATH, quiet=False)
 
 # ══════════════════════════════════════════════════════════════
